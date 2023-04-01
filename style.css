@@ -1,0 +1,226 @@
+/* Universal Style*/
+
+* {
+    padding: 0;
+    margin: 0;
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+html {
+    font-size: 10px;
+    overflow-x: hidden;
+}
+
+p {
+    font-size: 2rem;
+}
+
+a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* Nav */
+
+nav {
+    display: flex;
+    background-color: #212529;
+    padding-left: 1em;
+    padding-right: 1em;
+    height: 5vh;
+    width: 100%;
+    align-items: center;
+}
+
+nav a {
+    position: absolute;
+    left: 25%;
+    top: 0.5%;
+}
+
+
+
+/* Banner */
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 35vh;
+    padding: 5em 3em;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+
+.banner .container {
+    width: 30%;
+    padding: 0 2em;
+    margin: 0 auto;
+}
+
+.banner h1 {
+    font-size: 4rem;
+    font-weight: 100;
+    color: #212529;
+
+}
+
+.banner p {
+    color: #6c757d;
+    font-size: 2rem;
+    line-height: 1.5;
+    margin: 0 0 1em;
+
+}
+
+.banner .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    height: 5vh;
+}
+
+/* Button */
+
+.main-button {
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 0.5em;
+    padding: 1em 1em;
+    font-size: 1.5rem;
+    margin: 1em 0;
+}
+
+.main-button:hover {
+    background-color: #0069d9;
+    border-color: #0069d9;
+    transition: 0.5s;
+}
+
+.secondary-button {
+    background-color: #6c757d;
+    border-color: #6c757d;
+    border-radius: 0.5em;
+    padding: 1em 1em;
+    font-size: 1.5rem;
+    margin: 1em 0;
+}
+
+.secondary-button:hover {
+    background-color: #5a6268;
+    border-color: #5a6268;
+    transition: 0.5s;
+}
+
+/* Album */
+
+.album {
+    display: grid;
+    grid-template-columns: repeat(3, 348px);
+    justify-content: center;
+    gap: 30px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 5em;
+    background-color: #f8f9fa;
+}
+
+/* Card */
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 350px;
+    background-color: #fff;
+
+    position: relative;
+}
+
+.card .tiny-time {
+    color: #6C757D;
+    position: absolute;
+    bottom: 0.2em;
+    right: 1em;
+    margin: 1em;
+}
+
+
+.card-body {
+    padding: 3em;
+}
+
+.card-text {
+    margin: 0 0 1em;
+    font-size: 1.6rem;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+}
+
+.card .tiny-time {
+    font-size: 1.5rem;
+    color: #6C757D;
+
+}
+
+.card .buttons {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 3vh;
+}
+
+.card .buttons a {
+    color: #6c757d;
+    border: #6c757d 1px solid;
+    border-radius: 0.2em;
+    padding: 0.5em 1em;
+    font-size: 1.4rem;
+}
+
+.card .buttons a:hover {
+    background-color: #6C757D;
+    color: #fff;
+    transition: 0.5;
+}
+
+/* footer */
+footer {
+    padding: 5em 0;
+    background-color: #fff;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: 0 auto;
+}
+
+footer div {
+    margin: 0 1em;
+}
+
+footer p {
+    margin-bottom: 0.5em;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #6C757D;
+}
+
+footer a {
+    font-size: 1.6rem;
+    color: #007BFF;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #0054ad;
+}
